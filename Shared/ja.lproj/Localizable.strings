@@ -12,7 +12,6 @@
 "donate_header" = "寄付する金額を選んでください:";
 "donate_title" = "寄付する";
 "opensource_repo_DonateViewController" = "寄付のためのビューコントローラー。";
-"opensource_repo_Kingfisher" = "Webから画像をダウンロード・キャッシュするための軽量かつ純Swift製ライブラリ。";
 "editor_settings" = "エディターの設定";
 "developer_text" = "制作: Nathan Fallet";
 "backgroundColor" = "背景色";
@@ -30,6 +29,6 @@
 "opensource_others" = "その他";
 "code" = "コード";
 "donate_thanks" = "当組織への寄付ありがとうございます！";
-"opensource_repo_OCaml" = "App本体";
+"opensource_repo_ocaml" = "App本体";
 "console_failed" = "コンソールの読み込みに失敗しました";
 "opensource_swiftpackages" = "Swiftパッケージ";

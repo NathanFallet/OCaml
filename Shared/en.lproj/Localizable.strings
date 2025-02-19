@@ -44,9 +44,8 @@
 "commentColor" = "Comments color";
 "opensource_swiftpackages" = "Swift packages";
 "opensource_others" = "Others";
-"opensource_repo_OCaml" = "The app itself";
+"opensource_repo_ocaml" = "The app itself";
 "opensource_repo_DonateViewController" = "A view controller to make donations.";
 "opensource_repo_Sourceful" = "A syntax highlighting source editor for iOS and macOS using UITextView and NSTextView.";
 "opensource_repo_js_of_ocaml" = "Compiler from OCaml to Javascript.";
-"opensource_repo_Kingfisher" = "A lightweight, pure-Swift library for downloading and caching images from the web.";
 "opensource_repo_DigiAnalytics" = "Realtime web analytics with privacy and simplicity at its core.";

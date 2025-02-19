@@ -18,7 +18,7 @@
 */
 
 import Foundation
-import WebKit
+@preconcurrency import WebKit
 import Combine
 import DigiAnalytics
 

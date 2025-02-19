@@ -20,7 +20,7 @@
         <Preference
             app:title="@string/documentation">
             <intent android:action="android.intent.action.VIEW"
-                android:data="https://ocaml-learn-code.com/learn" />
+                android:data="https://ocaml.nathanfallet.me/learn" />
         </Preference>
 
         <Preference

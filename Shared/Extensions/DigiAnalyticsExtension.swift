@@ -22,9 +22,9 @@ import DigiAnalytics
 extension DigiAnalytics {
 
     #if DEBUG
-    static let shared = DigiAnalytics(baseURL: "https://debug.ocaml-learn-code.com/")
+    static let shared = DigiAnalytics(baseURL: "https://debug.ocaml.nathanfallet.me/")
     #else
-    static let shared = DigiAnalytics(baseURL: "https://app.ocaml-learn-code.com/")
+    static let shared = DigiAnalytics(baseURL: "https://app.ocaml.nathanfallet.me/")
     #endif
 
 }

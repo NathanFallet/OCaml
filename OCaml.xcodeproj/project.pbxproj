@@ -3,125 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A3C6E1526382FAD00E40602 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8508926348257006BF4FE /* SettingsView.swift */; };
-		6A3C6E1B26383F7E00E40602 /* EnvironmentValuesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C6E1A26383F7D00E40602 /* EnvironmentValuesExtension.swift */; };
-		6A3C6E1C26383F7E00E40602 /* EnvironmentValuesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3C6E1A26383F7D00E40602 /* EnvironmentValuesExtension.swift */; };
 		6A6562352634B3270064DD6C /* Sourceful in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6562342634B3270064DD6C /* Sourceful */; };
-		6A65623A2634B3430064DD6C /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE850D826349BF5006BF4FE /* CodeEditorView.swift */; };
-		6A6562442634B5BA0064DD6C /* EditorColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6562432634B5BA0064DD6C /* EditorColorView.swift */; };
-		6A6562452634B5BA0064DD6C /* EditorColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6562432634B5BA0064DD6C /* EditorColorView.swift */; };
-		6A6562572634CAEF0064DD6C /* OpenSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6562562634CAEF0064DD6C /* OpenSourceView.swift */; };
-		6A6562582634CAEF0064DD6C /* OpenSourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6562562634CAEF0064DD6C /* OpenSourceView.swift */; };
-		6A65625C2634CB280064DD6C /* OpenSourceRepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A65625B2634CB280064DD6C /* OpenSourceRepositoryView.swift */; };
-		6A65625D2634CB280064DD6C /* OpenSourceRepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A65625B2634CB280064DD6C /* OpenSourceRepositoryView.swift */; };
-		6A6562622634CBC20064DD6C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6562612634CBC20064DD6C /* Kingfisher */; };
-		6A6562662634CBCA0064DD6C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6A6562652634CBCA0064DD6C /* Kingfisher */; };
-		6A67C4BC2637FB470012BBF2 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67C4BB2637FB470012BBF2 /* FontExtension.swift */; };
-		6A67C4BD2637FB470012BBF2 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A67C4BB2637FB470012BBF2 /* FontExtension.swift */; };
-		6A7425D62659459300441B32 /* OCamlConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7425D52659459300441B32 /* OCamlConsole.swift */; };
-		6A7425D72659459300441B32 /* OCamlConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7425D52659459300441B32 /* OCamlConsole.swift */; };
-		6A7425D9265947C800441B32 /* OCamlWebConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7425D8265947C800441B32 /* OCamlWebConsole.swift */; };
-		6A7425DA265947C800441B32 /* OCamlWebConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7425D8265947C800441B32 /* OCamlWebConsole.swift */; };
-		6A7425DC2659482900441B32 /* OCamlSystemConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7425DB2659482900441B32 /* OCamlSystemConsole.swift */; };
-		6A7425DD2659482900441B32 /* OCamlSystemConsole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7425DB2659482900441B32 /* OCamlSystemConsole.swift */; };
-		6A7425DF26594D8100441B32 /* ConsoleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7425DE26594D8100441B32 /* ConsoleViewModel.swift */; };
-		6A7425E026594D8100441B32 /* ConsoleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7425DE26594D8100441B32 /* ConsoleViewModel.swift */; };
-		6AA1778127A593FB00775DEC /* MyAppsiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 6AA1778027A593FB00775DEC /* MyAppsiOS */; };
-		6AA1778327A5945100775DEC /* MyAppsiOS in Frameworks */ = {isa = PBXBuildFile; productRef = 6AA1778227A5945100775DEC /* MyAppsiOS */; };
 		6AC0FA71264FFE03007AD540 /* DigiAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6AC0FA70264FFE03007AD540 /* DigiAnalytics */; };
 		6AC0FA73264FFE18007AD540 /* DigiAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6AC0FA72264FFE18007AD540 /* DigiAnalytics */; };
-		6AC0FA752650036C007AD540 /* DigiAnalyticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0FA742650036C007AD540 /* DigiAnalyticsExtension.swift */; };
-		6AC0FA762650036C007AD540 /* DigiAnalyticsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0FA742650036C007AD540 /* DigiAnalyticsExtension.swift */; };
-		6AC0FA79265003CF007AD540 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0FA78265003CF007AD540 /* MainWindow.swift */; };
-		6AC0FA7A265003CF007AD540 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0FA78265003CF007AD540 /* MainWindow.swift */; };
-		6AE8503426347B77006BF4FE /* OCamlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8502226347B76006BF4FE /* OCamlApp.swift */; };
-		6AE8503526347B77006BF4FE /* OCamlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8502226347B76006BF4FE /* OCamlApp.swift */; };
-		6AE8503826347B77006BF4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8502426347B77006BF4FE /* Assets.xcassets */; };
-		6AE8503926347B77006BF4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8502426347B77006BF4FE /* Assets.xcassets */; };
-		6AE8504426347D44006BF4FE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A35DC1625ECE8BA0092B6CA /* Localizable.strings */; };
-		6AE8504726347D45006BF4FE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A35DC1625ECE8BA0092B6CA /* Localizable.strings */; };
-		6AE8504F26347ECC006BF4FE /* OCamlFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FA188262C1CB6002D3AA8 /* OCamlFile.swift */; };
-		6AE8505626347ECD006BF4FE /* OCamlFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0FA188262C1CB6002D3AA8 /* OCamlFile.swift */; };
-		6AE8505B26347F11006BF4FE /* toplevel.js in Resources */ = {isa = PBXBuildFile; fileRef = 6AA55ACD261097AF0021436C /* toplevel.js */; };
-		6AE8505C26347F11006BF4FE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6AA55ACB261097AF0021436C /* index.html */; };
-		6AE8506026347F12006BF4FE /* toplevel.js in Resources */ = {isa = PBXBuildFile; fileRef = 6AA55ACD261097AF0021436C /* toplevel.js */; };
-		6AE8506126347F12006BF4FE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 6AA55ACB261097AF0021436C /* index.html */; };
-		6AE8506426347F22006BF4FE /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A292A4625ED1303008053D3 /* IntExtension.swift */; };
-		6AE8506526347F22006BF4FE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A292A4925ED13D5008053D3 /* ColorExtension.swift */; };
-		6AE8506626347F22006BF4FE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83945F25A4D4190033FA88 /* StringExtension.swift */; };
-		6AE8506926347F23006BF4FE /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A292A4625ED1303008053D3 /* IntExtension.swift */; };
-		6AE8506A26347F23006BF4FE /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A292A4925ED13D5008053D3 /* ColorExtension.swift */; };
-		6AE8506B26347F23006BF4FE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A83945F25A4D4190033FA88 /* StringExtension.swift */; };
-		6AE850842634824D006BF4FE /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE850832634824D006BF4FE /* CodeView.swift */; };
-		6AE8508A26348257006BF4FE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8508926348257006BF4FE /* SettingsView.swift */; };
-		6AE8508D26348356006BF4FE /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE850832634824D006BF4FE /* CodeView.swift */; };
 		6AE8509F26348743006BF4FE /* Sourceful in Frameworks */ = {isa = PBXBuildFile; productRef = 6AE8509E26348743006BF4FE /* Sourceful */; };
-		6AE850D926349BF5006BF4FE /* CodeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE850D826349BF5006BF4FE /* CodeEditorView.swift */; };
-		6AEE525926356E9300F54038 /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEE525826356E9300F54038 /* SplitView.swift */; };
-		6AEE525A26356E9300F54038 /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEE525826356E9300F54038 /* SplitView.swift */; };
-		6AF8DB222639570A00C3D62F /* DonateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8DB212639570A00C3D62F /* DonateViewModel.swift */; };
-		6AF8DB232639570A00C3D62F /* DonateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8DB212639570A00C3D62F /* DonateViewModel.swift */; };
-		6AF8DB3C26395B1100C3D62F /* SKProductExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8DB3B26395B1100C3D62F /* SKProductExtension.swift */; };
-		6AF8DB3D26395B1100C3D62F /* SKProductExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF8DB3B26395B1100C3D62F /* SKProductExtension.swift */; };
 		6AF8DB4326395E9D00C3D62F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF8DB4226395E9D00C3D62F /* StoreKit.framework */; };
 		6AF8DB4526395EA700C3D62F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF8DB4426395EA700C3D62F /* StoreKit.framework */; };
-		6AFBF10E2637027000A55FFF /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFBF10D2637027000A55FFF /* DonateView.swift */; };
-		6AFBF10F2637027000A55FFF /* DonateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFBF10D2637027000A55FFF /* DonateView.swift */; };
-		6AFDC82E2635AB0E0050FA59 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFDC82D2635AB0E0050FA59 /* ConsoleView.swift */; };
-		6AFDC82F2635AB0E0050FA59 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFDC82D2635AB0E0050FA59 /* ConsoleView.swift */; };
-		6AFDC8352635AEE20050FA59 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFDC8342635AEE20050FA59 /* ViewExtension.swift */; };
-		6AFDC8362635AEE20050FA59 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFDC8342635AEE20050FA59 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A0FA188262C1CB6002D3AA8 /* OCamlFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCamlFile.swift; sourceTree = "<group>"; };
 		6A0FA18B262C1CE6002D3AA8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6A0FA18C262C1CE6002D3AA8 /* CODE_OF_CONDUCT.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CODE_OF_CONDUCT.md; sourceTree = "<group>"; };
 		6A0FA18D262C1CE6002D3AA8 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
 		6A0FA18E262C1CE6002D3AA8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6A292A4625ED1303008053D3 /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
-		6A292A4925ED13D5008053D3 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		6A35DC1525ECE8BA0092B6CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6A35DC1825ECE8CC0092B6CA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6A3C6E1A26383F7D00E40602 /* EnvironmentValuesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValuesExtension.swift; sourceTree = "<group>"; };
-		6A6562432634B5BA0064DD6C /* EditorColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorColorView.swift; sourceTree = "<group>"; };
-		6A6562562634CAEF0064DD6C /* OpenSourceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSourceView.swift; sourceTree = "<group>"; };
-		6A65625B2634CB280064DD6C /* OpenSourceRepositoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenSourceRepositoryView.swift; sourceTree = "<group>"; };
-		6A67C4BB2637FB470012BBF2 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
-		6A7425D52659459300441B32 /* OCamlConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCamlConsole.swift; sourceTree = "<group>"; };
-		6A7425D8265947C800441B32 /* OCamlWebConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCamlWebConsole.swift; sourceTree = "<group>"; };
-		6A7425DB2659482900441B32 /* OCamlSystemConsole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCamlSystemConsole.swift; sourceTree = "<group>"; };
-		6A7425DE26594D8100441B32 /* ConsoleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleViewModel.swift; sourceTree = "<group>"; };
-		6A83945F25A4D4190033FA88 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		6A97F0932A092B560084646E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6AA55ACB261097AF0021436C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		6AA55ACD261097AF0021436C /* toplevel.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = toplevel.js; sourceTree = "<group>"; };
-		6AC0FA742650036C007AD540 /* DigiAnalyticsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiAnalyticsExtension.swift; sourceTree = "<group>"; };
-		6AC0FA78265003CF007AD540 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
-		6AE8502226347B76006BF4FE /* OCamlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCamlApp.swift; sourceTree = "<group>"; };
-		6AE8502426347B77006BF4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AE8502926347B77006BF4FE /* OCaml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCaml.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AE8502B26347B77006BF4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE8503026347B77006BF4FE /* OCaml.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCaml.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AE8503226347B77006BF4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AE8503326347B77006BF4FE /* OCaml.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OCaml.entitlements; sourceTree = "<group>"; };
-		6AE850832634824D006BF4FE /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
-		6AE8508926348257006BF4FE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		6AE850D826349BF5006BF4FE /* CodeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeEditorView.swift; sourceTree = "<group>"; };
-		6AEE525826356E9300F54038 /* SplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
-		6AF8DB212639570A00C3D62F /* DonateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewModel.swift; sourceTree = "<group>"; };
-		6AF8DB3B26395B1100C3D62F /* SKProductExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKProductExtension.swift; sourceTree = "<group>"; };
 		6AF8DB4226395E9D00C3D62F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6AF8DB4426395EA700C3D62F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		6AFBF10D2637027000A55FFF /* DonateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateView.swift; sourceTree = "<group>"; };
-		6AFDC82D2635AB0E0050FA59 /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
-		6AFDC8342635AEE20050FA59 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
-		945FA4D026EFAC9100B1453D /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6A1AA6BD2D65EFFD00ADD55C /* iOS */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = iOS; sourceTree = "<group>"; };
+		6A1AA6BF2D65F00000ADD55C /* macOS */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = macOS; sourceTree = "<group>"; };
+		6A1AA6E92D65F17300ADD55C /* Shared */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Shared; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6AE8502626347B77006BF4FE /* Frameworks */ = {
@@ -129,8 +38,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF8DB4326395E9D00C3D62F /* StoreKit.framework in Frameworks */,
-				6A6562622634CBC20064DD6C /* Kingfisher in Frameworks */,
-				6AA1778127A593FB00775DEC /* MyAppsiOS in Frameworks */,
 				6AC0FA71264FFE03007AD540 /* DigiAnalytics in Frameworks */,
 				6AE8509F26348743006BF4FE /* Sourceful in Frameworks */,
 			);
@@ -141,8 +48,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF8DB4526395EA700C3D62F /* StoreKit.framework in Frameworks */,
-				6A6562662634CBCA0064DD6C /* Kingfisher in Frameworks */,
-				6AA1778327A5945100775DEC /* MyAppsiOS in Frameworks */,
 				6AC0FA73264FFE18007AD540 /* DigiAnalytics in Frameworks */,
 				6A6562352634B3270064DD6C /* Sourceful in Frameworks */,
 			);
@@ -167,9 +72,9 @@
 				6A0FA18D262C1CE6002D3AA8 /* CONTRIBUTING.md */,
 				6A0FA18B262C1CE6002D3AA8 /* LICENSE */,
 				6A0FA18E262C1CE6002D3AA8 /* README.md */,
-				6AE8502126347B76006BF4FE /* Shared */,
-				6AE8502A26347B77006BF4FE /* iOS */,
-				6AE8503126347B77006BF4FE /* macOS */,
+				6A1AA6E92D65F17300ADD55C /* Shared */,
+				6A1AA6BD2D65EFFD00ADD55C /* iOS */,
+				6A1AA6BF2D65F00000ADD55C /* macOS */,
 				6A83943425A4CF9A0033FA88 /* Products */,
 				6A6562332634B3270064DD6C /* Frameworks */,
 			);
@@ -182,115 +87,6 @@
 				6AE8503026347B77006BF4FE /* OCaml.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		6A83944F25A4D1C50033FA88 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				6A292A4925ED13D5008053D3 /* ColorExtension.swift */,
-				6AC0FA742650036C007AD540 /* DigiAnalyticsExtension.swift */,
-				6A3C6E1A26383F7D00E40602 /* EnvironmentValuesExtension.swift */,
-				6A67C4BB2637FB470012BBF2 /* FontExtension.swift */,
-				6A292A4625ED1303008053D3 /* IntExtension.swift */,
-				6AF8DB3B26395B1100C3D62F /* SKProductExtension.swift */,
-				6A83945F25A4D4190033FA88 /* StringExtension.swift */,
-				6AFDC8342635AEE20050FA59 /* ViewExtension.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		6A83945325A4D1DE0033FA88 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				6A0FA188262C1CB6002D3AA8 /* OCamlFile.swift */,
-				6A7425D52659459300441B32 /* OCamlConsole.swift */,
-				6A7425D8265947C800441B32 /* OCamlWebConsole.swift */,
-				6A7425DB2659482900441B32 /* OCamlSystemConsole.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		6A83947125A4DABD0033FA88 /* JavaScript */ = {
-			isa = PBXGroup;
-			children = (
-				6AA55ACB261097AF0021436C /* index.html */,
-				6AA55ACD261097AF0021436C /* toplevel.js */,
-			);
-			path = JavaScript;
-			sourceTree = "<group>";
-		};
-		6AC0FA77265003BD007AD540 /* Window */ = {
-			isa = PBXGroup;
-			children = (
-				6AC0FA78265003CF007AD540 /* MainWindow.swift */,
-			);
-			path = Window;
-			sourceTree = "<group>";
-		};
-		6AE8502126347B76006BF4FE /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				6A83944F25A4D1C50033FA88 /* Extensions */,
-				6A83947125A4DABD0033FA88 /* JavaScript */,
-				6A83945325A4D1DE0033FA88 /* Models */,
-				6AE85079263481E0006BF4FE /* Views */,
-				6AE8502226347B76006BF4FE /* OCamlApp.swift */,
-				6A35DC1625ECE8BA0092B6CA /* Localizable.strings */,
-				6AE8502426347B77006BF4FE /* Assets.xcassets */,
-				6AE8503326347B77006BF4FE /* OCaml.entitlements */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		6AE8502A26347B77006BF4FE /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6AE8502B26347B77006BF4FE /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		6AE8503126347B77006BF4FE /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				6AE8503226347B77006BF4FE /* Info.plist */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		6AE85079263481E0006BF4FE /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				6AE8508126348221006BF4FE /* Code */,
-				6AE8508226348239006BF4FE /* Settings */,
-				6AC0FA77265003BD007AD540 /* Window */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		6AE8508126348221006BF4FE /* Code */ = {
-			isa = PBXGroup;
-			children = (
-				6AE850D826349BF5006BF4FE /* CodeEditorView.swift */,
-				6A7425DE26594D8100441B32 /* ConsoleViewModel.swift */,
-				6AE850832634824D006BF4FE /* CodeView.swift */,
-				6AFDC82D2635AB0E0050FA59 /* ConsoleView.swift */,
-				6AEE525826356E9300F54038 /* SplitView.swift */,
-			);
-			path = Code;
-			sourceTree = "<group>";
-		};
-		6AE8508226348239006BF4FE /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				6A6562432634B5BA0064DD6C /* EditorColorView.swift */,
-				6A65625B2634CB280064DD6C /* OpenSourceRepositoryView.swift */,
-				6A6562562634CAEF0064DD6C /* OpenSourceView.swift */,
-				6AE8508926348257006BF4FE /* SettingsView.swift */,
-				6AFBF10D2637027000A55FFF /* DonateView.swift */,
-				6AF8DB212639570A00C3D62F /* DonateViewModel.swift */,
-			);
-			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,12 +105,13 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				6A1AA6E92D65F17300ADD55C /* Shared */,
+			);
 			name = "OCaml (iOS)";
 			packageProductDependencies = (
 				6AE8509E26348743006BF4FE /* Sourceful */,
-				6A6562612634CBC20064DD6C /* Kingfisher */,
 				6AC0FA70264FFE03007AD540 /* DigiAnalytics */,
-				6AA1778027A593FB00775DEC /* MyAppsiOS */,
 			);
 			productName = "OCaml (iOS)";
 			productReference = 6AE8502926347B77006BF4FE /* OCaml.app */;
@@ -333,12 +130,13 @@
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				6A1AA6E92D65F17300ADD55C /* Shared */,
+			);
 			name = "OCaml (macOS)";
 			packageProductDependencies = (
 				6A6562342634B3270064DD6C /* Sourceful */,
-				6A6562652634CBCA0064DD6C /* Kingfisher */,
 				6AC0FA72264FFE18007AD540 /* DigiAnalytics */,
-				6AA1778227A5945100775DEC /* MyAppsiOS */,
 			);
 			productName = "OCaml (macOS)";
 			productReference = 6AE8503026347B77006BF4FE /* OCaml.app */;
@@ -350,8 +148,9 @@
 		6A83942B25A4CF9A0033FA88 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					6AE8502826347B77006BF4FE = {
 						CreatedOnToolsVersion = 12.4;
@@ -375,9 +174,7 @@
 			mainGroup = 6A83942A25A4CF9A0033FA88;
 			packageReferences = (
 				6AE8509D26348743006BF4FE /* XCRemoteSwiftPackageReference "Sourceful" */,
-				6A6562602634CBC20064DD6C /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				6AC0FA6F264FFE03007AD540 /* XCRemoteSwiftPackageReference "DigiAnalytics" */,
-				6AA1777F27A593FB00775DEC /* XCRemoteSwiftPackageReference "MyApps" */,
 			);
 			productRefGroup = 6A83943425A4CF9A0033FA88 /* Products */;
 			projectDirPath = "";
@@ -394,10 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AE8505C26347F11006BF4FE /* index.html in Resources */,
-				6AE8503826347B77006BF4FE /* Assets.xcassets in Resources */,
-				6AE8505B26347F11006BF4FE /* toplevel.js in Resources */,
-				6AE8504426347D44006BF4FE /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,10 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AE8506126347F12006BF4FE /* index.html in Resources */,
-				6AE8503926347B77006BF4FE /* Assets.xcassets in Resources */,
-				6AE8506026347F12006BF4FE /* toplevel.js in Resources */,
-				6AE8504726347D45006BF4FE /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,31 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A67C4BC2637FB470012BBF2 /* FontExtension.swift in Sources */,
-				6AF8DB3C26395B1100C3D62F /* SKProductExtension.swift in Sources */,
-				6A7425DF26594D8100441B32 /* ConsoleViewModel.swift in Sources */,
-				6A6562572634CAEF0064DD6C /* OpenSourceView.swift in Sources */,
-				6AE8504F26347ECC006BF4FE /* OCamlFile.swift in Sources */,
-				6A7425D9265947C800441B32 /* OCamlWebConsole.swift in Sources */,
-				6AC0FA752650036C007AD540 /* DigiAnalyticsExtension.swift in Sources */,
-				6AE8506626347F22006BF4FE /* StringExtension.swift in Sources */,
-				6AFDC82E2635AB0E0050FA59 /* ConsoleView.swift in Sources */,
-				6AFDC8352635AEE20050FA59 /* ViewExtension.swift in Sources */,
-				6AE8503426347B77006BF4FE /* OCamlApp.swift in Sources */,
-				6A6562442634B5BA0064DD6C /* EditorColorView.swift in Sources */,
-				6AFBF10E2637027000A55FFF /* DonateView.swift in Sources */,
-				6AF8DB222639570A00C3D62F /* DonateViewModel.swift in Sources */,
-				6AE850842634824D006BF4FE /* CodeView.swift in Sources */,
-				6AE8506526347F22006BF4FE /* ColorExtension.swift in Sources */,
-				6AC0FA79265003CF007AD540 /* MainWindow.swift in Sources */,
-				6A3C6E1B26383F7E00E40602 /* EnvironmentValuesExtension.swift in Sources */,
-				6A7425D62659459300441B32 /* OCamlConsole.swift in Sources */,
-				6AE8506426347F22006BF4FE /* IntExtension.swift in Sources */,
-				6AE8508A26348257006BF4FE /* SettingsView.swift in Sources */,
-				6A65625C2634CB280064DD6C /* OpenSourceRepositoryView.swift in Sources */,
-				6AEE525926356E9300F54038 /* SplitView.swift in Sources */,
-				6A7425DC2659482900441B32 /* OCamlSystemConsole.swift in Sources */,
-				6AE850D926349BF5006BF4FE /* CodeEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,55 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A67C4BD2637FB470012BBF2 /* FontExtension.swift in Sources */,
-				6AF8DB3D26395B1100C3D62F /* SKProductExtension.swift in Sources */,
-				6A7425E026594D8100441B32 /* ConsoleViewModel.swift in Sources */,
-				6A6562582634CAEF0064DD6C /* OpenSourceView.swift in Sources */,
-				6AFDC82F2635AB0E0050FA59 /* ConsoleView.swift in Sources */,
-				6A7425DA265947C800441B32 /* OCamlWebConsole.swift in Sources */,
-				6AC0FA762650036C007AD540 /* DigiAnalyticsExtension.swift in Sources */,
-				6AE8505626347ECD006BF4FE /* OCamlFile.swift in Sources */,
-				6AE8506B26347F23006BF4FE /* StringExtension.swift in Sources */,
-				6AFDC8362635AEE20050FA59 /* ViewExtension.swift in Sources */,
-				6A6562452634B5BA0064DD6C /* EditorColorView.swift in Sources */,
-				6A65623A2634B3430064DD6C /* CodeEditorView.swift in Sources */,
-				6AE8508D26348356006BF4FE /* CodeView.swift in Sources */,
-				6AFBF10F2637027000A55FFF /* DonateView.swift in Sources */,
-				6A3C6E1526382FAD00E40602 /* SettingsView.swift in Sources */,
-				6AF8DB232639570A00C3D62F /* DonateViewModel.swift in Sources */,
-				6AC0FA7A265003CF007AD540 /* MainWindow.swift in Sources */,
-				6AE8503526347B77006BF4FE /* OCamlApp.swift in Sources */,
-				6A7425D72659459300441B32 /* OCamlConsole.swift in Sources */,
-				6A3C6E1C26383F7E00E40602 /* EnvironmentValuesExtension.swift in Sources */,
-				6AE8506A26347F23006BF4FE /* ColorExtension.swift in Sources */,
-				6AE8506926347F23006BF4FE /* IntExtension.swift in Sources */,
-				6AEE525A26356E9300F54038 /* SplitView.swift in Sources */,
-				6A7425DD2659482900441B32 /* OCamlSystemConsole.swift in Sources */,
-				6A65625D2634CB280064DD6C /* OpenSourceRepositoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6A35DC1625ECE8BA0092B6CA /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A35DC1525ECE8BA0092B6CA /* en */,
-				6A35DC1825ECE8CC0092B6CA /* fr */,
-				945FA4D026EFAC9100B1453D /* de */,
-				6A97F0932A092B560084646E /* ja */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6A83944525A4CF9D0033FA88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -573,6 +299,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -601,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -635,6 +363,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -661,17 +390,17 @@
 				CODE_SIGN_ENTITLEMENTS = Shared/OCaml.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 174;
+				CURRENT_PROJECT_VERSION = 175;
 				DEVELOPMENT_TEAM = ZL9396WK65;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.7;
+				MARKETING_VERSION = 1.2.9;
 				PRODUCT_BUNDLE_IDENTIFIER = me.nathanfallet.OCaml;
 				PRODUCT_NAME = OCaml;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -690,17 +419,17 @@
 				CODE_SIGN_ENTITLEMENTS = Shared/OCaml.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 174;
+				CURRENT_PROJECT_VERSION = 175;
 				DEVELOPMENT_TEAM = ZL9396WK65;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.7;
+				MARKETING_VERSION = 1.2.9;
 				PRODUCT_BUNDLE_IDENTIFIER = me.nathanfallet.OCaml;
 				PRODUCT_NAME = OCaml;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -721,7 +450,8 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 174;
+				CURRENT_PROJECT_VERSION = 175;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = ZL9396WK65;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -731,8 +461,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.2.7;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.2.9;
 				PRODUCT_BUNDLE_IDENTIFIER = me.nathanfallet.OCaml;
 				PRODUCT_NAME = OCaml;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -751,7 +481,8 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 174;
+				CURRENT_PROJECT_VERSION = 175;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = ZL9396WK65;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -761,8 +492,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.2.7;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.2.9;
 				PRODUCT_BUNDLE_IDENTIFIER = me.nathanfallet.OCaml;
 				PRODUCT_NAME = OCaml;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -805,22 +536,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6A6562602634CBC20064DD6C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
-		6AA1777F27A593FB00775DEC /* XCRemoteSwiftPackageReference "MyApps" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/NathanFallet/MyApps";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		6AC0FA6F264FFE03007AD540 /* XCRemoteSwiftPackageReference "DigiAnalytics" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/GroupeMINASTE/DigiAnalytics.git";
@@ -844,26 +559,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6AE8509D26348743006BF4FE /* XCRemoteSwiftPackageReference "Sourceful" */;
 			productName = Sourceful;
-		};
-		6A6562612634CBC20064DD6C /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6A6562602634CBC20064DD6C /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		6A6562652634CBCA0064DD6C /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6A6562602634CBC20064DD6C /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		6AA1778027A593FB00775DEC /* MyAppsiOS */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6AA1777F27A593FB00775DEC /* XCRemoteSwiftPackageReference "MyApps" */;
-			productName = MyAppsiOS;
-		};
-		6AA1778227A5945100775DEC /* MyAppsiOS */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6AA1777F27A593FB00775DEC /* XCRemoteSwiftPackageReference "MyApps" */;
-			productName = MyAppsiOS;
 		};
 		6AC0FA70264FFE03007AD540 /* DigiAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;

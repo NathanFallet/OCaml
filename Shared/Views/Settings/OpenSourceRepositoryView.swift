@@ -18,7 +18,6 @@
 */
 
 import SwiftUI
-import Kingfisher
 
 struct OpenSourceRepositoryView: View {
     @Environment(\.openURL) var openURL
@@ -28,11 +27,19 @@ struct OpenSourceRepositoryView: View {
     var body: some View {
         HStack(spacing: 12) {
             if let url = URL(string: "https://github.com/\(user).png") {
-                KFImage(url)
-                    .resizable()
-                    .frame(width: 44, height: 44)
-                    .cornerRadius(8)
-                    .padding(.vertical, 8)
+                AsyncImage(
+                    url: url,
+                    content: { image in
+                        image
+                            .resizable()
+                    },
+                    placeholder: {
+                        Image("Avatar").resizable()
+                    }
+                )
+                .frame(width: 44, height: 44)
+                .cornerRadius(8)
+                .padding(.vertical, 8)
             }
             VStack(alignment: .leading, spacing: 4) {
                 Text("\(user)/\(repo)")

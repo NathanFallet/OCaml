@@ -6,7 +6,7 @@ class DigiAnalyticsExtension {
 
     companion object {
 
-        val shared = DigiAnalytics("https://app.ocaml-learn-code.com/")
+        val shared = DigiAnalytics("https://app.ocaml.nathanfallet.me/")
 
     }
 

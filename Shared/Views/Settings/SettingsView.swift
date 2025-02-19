@@ -19,7 +19,6 @@
 
 import SwiftUI
 import DigiAnalytics
-import MyAppsiOS
 
 struct SettingsView: View {
 
@@ -62,7 +61,7 @@ struct SettingsView: View {
                         }
                     }
                 Button("documentation") {
-                    if let url = URL(string: "https://ocaml-learn-code.com/learn") {
+                    if let url = URL(string: "https://ocaml.nathanfallet.me/learn") {
                         DigiAnalytics.shared.send(path: "learn")
                         openURL(url)
                     }
@@ -82,12 +81,6 @@ struct SettingsView: View {
                 }
                 NavigationLink(destination: DonateView()) {
                     Text("donate_title")
-                }
-            }
-
-            Section(header: MyAppHeader()) {
-                ForEach(MyApp.values) { app in
-                    MyAppView(app: app)
                 }
             }
         }
@@ -144,15 +137,6 @@ struct SettingsView: View {
             DonateView()
             .tabItem {
                 Label("donate_title", systemImage: "giftcard")
-            }
-
-            Form {
-                ForEach(MyApp.values) { app in
-                    MyAppView(app: app)
-                }
-            }
-            .tabItem {
-                Label(MyAppHeaderText.localizedString, systemImage: "app.badge")
             }
         }
         .padding()
